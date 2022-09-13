@@ -3,20 +3,29 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_DYNAMIC_DATA_OBJECT</CLSNAME>
+    <CLSNAME>ZCX_DYNAMIC_OBJECT</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Dynamic data object</DESCRIPT>
+    <DESCRIPT>Dynamic object error</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
    </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>000</KEY>
+     <ENTRY>Call not allowed</ENTRY>
+     <LENGTH>26</LENGTH>
+    </item>
+   </TPOOL>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
-     <CLSNAME>ZCL_DYNAMIC_DATA_OBJECT</CLSNAME>
-     <CMPNAME>VALUE</CMPNAME>
+     <CLSNAME>ZCX_DYNAMIC_OBJECT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
      <LANGU>E</LANGU>
-     <DESCRIPT>Specialization of {@link ZCL_DYNAMIC_VARIABLE.METH:_VALUE}</DESCRIPT>
+     <DESCRIPT>Create an exception. Can use either a t100 msg or a text ID</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>

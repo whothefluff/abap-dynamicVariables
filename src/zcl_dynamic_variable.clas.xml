@@ -10,6 +10,7 @@
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
     <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
    </VSEOCLASS>
    <DESCRIPTIONS>
     <SEOCOMPOTX>
@@ -29,6 +30,18 @@
      <CMPNAME>_FROM</CMPNAME>
      <LANGU>E</LANGU>
      <DESCRIPT>Returns a variable of the supplied type or referenced type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DYNAMIC_VARIABLE</CLSNAME>
+     <CMPNAME>_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns the type of the variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DYNAMIC_VARIABLE</CLSNAME>
+     <CMPNAME>_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns the variable itself</DESCRIPT>
     </SEOCOMPOTX>
    </DESCRIPTIONS>
   </asx:values>
